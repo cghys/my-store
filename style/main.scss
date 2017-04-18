@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size:16px;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    .topBar {
+        width: 100%;
+        height: 30px;
+        background: white;
+        line-height: 30px;
+        background: black;
+        .comWidth {
+            width: 1200px;
+            margin: 0 auto;
+            .leftArea {
+                float: left;
+            }
+            .rightArea {
+                float: right;
+            }
+            .rightArea ul li {
+                float: right;
+                list-style: none;
+                margin-right: 30px;
+            }
+            .rightArea ul li a, .leftArea a {
+                text-decoration: none;
+                font-family: "微软雅黑";
+                font-size: 14px;
+                color: #F8F7FF;
+                font-weight: bold;
+            }
+            .rightArea ul li a:hover, .leftArea a:hover {
+                color: #50c971;
+            }
+        }
+    }
+    .searchBar {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+        //background-image:green;
+        background-image: linear-gradient(180deg, #50c971, #0fbfa6);
+        position: relative;
+        .content_left {
+            float: left;
+        }
+        .content_left img {
+            padding-left: 100px;
+        }
+    }
+    .nav {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 0px;
+        padding: 0px;
+        .nav-list {
+            padding-left: 200px;
+            font-size: 16px;
+            .item {
+                display: inline-block;
+                padding: 0;
+                //gaibian
+                width: 200px;
+                height: 50px;
+                text-align: center;
+                font-size: 18px;
+                //gai
+                font-weight: bold;
+                cursor: pointer;
+                color: #000000;
+                &.active {
+
+                    //不用改变背景可能好一点
+                    //background:#0fbfa6
+                    color: #0fbfa6;
+                }
+            }
+        }
+
+    }
+    .call-list
+
+
+        ul {
+            position: relative;
+            display: block;
+
+        }
+    }
+
+
+
+
